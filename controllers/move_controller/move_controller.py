@@ -33,7 +33,6 @@ while driver.step() != -1:
         driver.setThrottle(0)
         driver.setBrakeIntensity(1)
     elif(key == ord('A')):
-        print(driver.getSteeringAngle())
         driver.setSteeringAngle(-0.15)
  
     elif(key == ord('D')):
