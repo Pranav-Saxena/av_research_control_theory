@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<robot name="My vehicle">    
+    <webots>
+        <plugin type="av_research_control_theory.my_vehicle_driver.MyvehicleDriver" />  
+    </webots>
+</robot>
